@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/* Créé par Nicolas Richard */
+.carousel-img {
+  height: 500px;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  font-family: 'Roboto Serif', sans-serif;
+}
+
+.bouton {
+  text-decoration: none;
+  padding: 10px;
+  background-color: #4545c5;
+  color: white;
+}
+
+.bouton:hover {
+  background-color: gray;
+  color: black;
+  text-decoration: none;
+}
+
+header {
+  background-image: url(../images/webb.png);
+}
+
+footer {
+  background-image: url(../images/webb.png);
+}
+
+#noms {
+  background-image: url(../images/circle-blues.png);
+}
+
+.screen-redear-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
+}
+
+#logo {
+  width: 150px;
+}
+/*# sourceMappingURL=styles.css.map */

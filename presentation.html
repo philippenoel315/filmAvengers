@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="icon" href="favicon.ico"/>
+            
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif&display=swap" rel="stylesheet"/>
+    <title>Page Presentation</title>
+  </head>
+  <body>
+    <header class="by-5 bg-primary py-3">
+      <h1><a class="screen-redear-text" href="#contenu">Aller au contenu principal</a></h1>
+      <div class="container">
+        <div class=" row justify-content-between">
+          <h1 class="col-lg-9 col-md-8 col-sm-8 col-8"><a href="index.html"><img id="logo"  src="images/2560px-Marvel's_The_Avengers_logo.svg.png" alt="logo avengers"/></a>
+            <span class="screen-redear-text">Avengers</span></h1>
+            <button type="button" class="col-lg-2 col-md-3 col-sm-3 col-3 m-2 btn btn-dark" data-toggle="modal" data-target="#exampleModal">
+              Ouvrir session
+            </button>           
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Ouverture de session</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form method="get" action="#">
+                  <div class="col-12 row">
+                    <label class="col-4" for="username">Utilisateur:</label>
+                    <input  type="text" id="username" name="username"/>
+                  </div>
+                  <div class="col-12 row py-2">
+                    <label class="col-4" for="password">Mot de passe:</label>
+                    <input type="password" id="password" name="password"/>
+                  </div>             
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button>
+                    <button type="submit" class="btn btn-dark">Confirmer</button>
+                  </div>
+                </form>  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top navigation" >      
+      <div class="container">        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav"> 
+            <li class="nav-item">
+                <a class="nav-link " href="index.html">Accueil</a>
+            </li>                  
+            <li class="nav-item">
+              <a class="nav-link" href="personnage.html">Personnages</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="presentation.html">Présentation</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="inscription.html">Inscription</a>
+            </li>
+          </ul> 
+        </div>               
+      </div>
+    </nav>
+    <main id="contenu">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-12 py-2  my-2 ">
+            <div class="border border-dark p-4 ">
+              <h2>Infolettre</h2>
+              <form action="#" method="get">
+                <label class="screen-redear-text" for="utilisateur"> Formulaire d'infolettre</label>
+                <label for="utilisateur">Utilisateur</label>
+                <input class=" w-100" type="text" id="utilisateur" name="utilisateur" placeholder="moi@courriel.com"/>
+                <label for="motpasse">Mot de passe </label >
+                <input class=" w-100" type="password" id="motpasse" name="motpasse" placeholder="********"/>
+                <input class="btn btn-dark my-2" type="submit" value="Inscrivez-moi"/>
+              </form>
+            </div> 
+          </div>           
+          <div class="col-lg-9 col-12 py-2 my-2">
+            <div class="border border-dark p-4">
+              <section id="IronMan">
+                <h2>Iron Man</h2>
+                <div>
+                  <div class="row">
+                    <img src="images/ironmanPresentation1.png" class="col-lg-4 my-1" alt="image de Iron Man en combat"/>
+                    <img src="images/ironmanPresentation2.jpg" class="col-lg-8 my-1" alt="image de Iron Man avec sa tenue"/>                     
+                  </div>                    
+                  <p class="p-3">Anthony « Tony » Stark, alias Iron Man (litt. « l'Homme de fer ») est un super-héros évoluant dans l'univers
+                    Marvel de la maison d'édition Marvel Comics. Créé par le scénariste Stan Lee, développé par Larry Lieber et conçu
+                    par les dessinateurs Don Heck et Jack Kirby, le personnage de fiction apparaît pour la première fois dans le comic
+                    book Tales of Suspense, scénarisé par Larry Lieber et dessiné par Don Heck.</p>                     
+                  <p class="px-3">
+                    Au début de sa carrière de super-héros, Tony Stark avait pour principale occupation de lutter contre les communistes
+                    dans le contexte de la guerre froide, de manière beaucoup plus systématique que les autres personnages de Marvel
+                    Comics. Ce cadre historique a progressivement disparu, au profit d'aventures de science-fiction.
+                    Le contexte de la série Iron Man a ensuite continué d'évoluer avec les années, le personnage affrontant en 
+                    majorité des menaces de type technologique.</p>                      
+                  <p class="p-3">Le corps d'Iron Man est celui d'un homme normal, sans pouvoir surnaturel ou surhumain, mais rendu surpuissant quand 
+                    il revêt l'une des nombreuses armures de haute technologie conçues à l'aide des impressionnantes compétences 
+                    scientifiques de Stark. L'armure, pouvant voler à des vitesses supersoniques, confère à Tony Stark une force et une
+                    résistance surhumaines et est équipée de multiples armes, capteurs et systèmes électroniques.
+                  </p>
+                </div>                    
+              </section>
+              <section id="CaptainSteve">
+                <h2>Captain Steve</h2>
+                <div>
+                  <div class="row">
+                    <img src="images/captainAmericapresentation1.jpg" class="col-lg-8 my-1"  alt="image de Captain Steve en combat"/>
+                    <img src="images/captainAmericaPresentation2.png" class="col-lg-4 my-1" alt="image de Captain Steveavec sa tenue"/>                       
+                  </div>
+                  <p class="p-3">Steven « Steve » Rogers, alias Captain America est un super-héros évoluant dans l'univers Marvel
+                    de la maison d'édition Marvel Comics. Créé par le scénariste Joe Simon et le dessinateur Jack Kirby, 
+                    le personnage de fiction apparaît pour la première fois dans le comic book Captain America Comics.                       
+                  </p>
+                  <p class="px-3">
+                    Conçu à l'origine comme une figure patriotique américaine en réaction au régime nazi,
+                    le personnage devient actif avant même l'entrée en guerre officielle des États-Unis dans la Seconde Guerre mondiale,
+                    en décembre 1941. Dès le début de sa publication, il est perçu comme le porte-drapeau des valeurs démocratiques de
+                    son pays et comme un défenseur du monde libre contre les totalitarismes, notamment le Troisième Reich.
+                  </p>
+                  <p class="p-3">
+                    Doté d'une condition physique au summum du potentiel humain, Captain America est un combattant hors pair,
+                    un chef-né et un stratège militaire accompli. Il porte un costume reconnaissable entre tous, inspiré du drapeau 
+                    américain et est équipé d'un bouclier quasi indestructible, composé d'un alliage d'acier et du fictif vibranium, 
+                    qu'il utilise comme une protection ainsi que comme une arme.
+                  </p>
+                  </div>                      
+                </section>
+                <section id="ThorOdinson">
+                  <h2>Thor Odinson</h2>
+                  <div class="row">
+                    <img src="images/thorpresentation1.jpg" class="col-lg-6 my-1" alt="image de Thor Odinson en combat"/>
+                    <img src="images/thorpresentation2.jpg" class="col-lg-6 my-1" alt="image deThor Odinson avec son marteau"/>                      
+                  </div>
+                  <p class="p-3">Thor Odinson, alias Thor est une divinité et un super-héros évoluant dans l'univers Marvel de la maison d'édition
+                    Marvel Comics. Créé par l'éditeur Stan Lee, le scénariste Larry Lieber et le dessinateur Jack Kirby, 
+                    le personnage de fiction apparaît pour la première fois dans le comic book Journey into Mystery.
+                  </p>
+                  <p class="px-3">
+                    Le personnage de Thor est basé sur son homologue de la mythologie nordique.
+                    L'asgardien est connu pour être l'un des membres fondateurs et équipier récurrent des Vengeurs.
+                    Il a été le personnage titre de trois séries régulières ainsi que de séries limitées.
+                  </p>
+                  <p class="p-3">
+                    Il apparaît dans de nombreux produits dérivés : séries d'animation et jeux vidéo. Au cinéma, 
+                    il est interprété par Chris Hemsworth dans plusieurs films de l'univers cinématographique Marvel.</p>
+                </section>
+                <section id="Hulk">
+                  <h2>Hulk</h2>
+                  <div class="row">
+                    <img src="images/hulkPresentation1.jpg" class="col-lg-6 my-1" alt="image de Hulk en combat"/>
+                    <img src="images/hulkPresentation2.jpg" class="col-lg-6 my-1" alt="image de Hulk en ville"/>                    
+                  </div>
+                  <p  class="p-3">Le docteur Robert Bruce Banner (souvent nommé Bruce Banner, son deuxième prénom), alias Hulk est un
+                    super-héros évoluant dans l'univers Marvel de la maison d'édition Marvel Comics. Créé par le scénariste
+                    Stan Lee et le dessinateur Jack Kirby, le personnage de fiction apparaît pour la première fois dans le 
+                    comic book The Incredible Hulk.</p>
+                  <p class="px-3">
+                    En France, il apparaît pour la première fois dans la revue Fantask, puis dans ses propres aventures à partir du d’Étranges Aventures.
+                    Ses toutes premières aventures en solo furent traduites dans Gamma.
+                  </p>
+                  <p class="p-3">
+                    Hulk, surnommé le « Titan vert », est devenu l'un des super-héros les plus forts et les plus résistants de 
+                    l'univers Marvel à la suite d'une exposition accidentelle de Banner aux rayons gamma lors d'une explosion
+                      atomique. Il est aussi l'un des membres fondateurs du groupe de super-héros les Vengeurs.
+                  </p>                      
+                </section>
+                <section id="VeuveNoire">
+                  <h2>Veuve Noire</h2>
+                  <div class="row">
+                    <img src="images/veuveNoirePresentation1.jpg" class="col-lg-6 my-1" alt="image de Veuve Noire en combat"/>
+                    <img src="images/veuveNoirePresentation2.jpg" class="col-lg-6 my-1" alt="image de Veuve Noire de face"/>                     
+                  </div>
+                  <p  class="p-3">Anthony « Tony » Stark, alias Iron Man (litt. « l'Homme de fer ») est un super-héros évoluant dans 
+                    l'univers Marvel de la maison d'édition Marvel Comics. Créé par le scénariste Stan Lee, développé par 
+                    Larry Lieber et conçu par les dessinateurs Don Heck et Jack Kirby, le personnage de fiction apparaît pour
+                    la première fois dans le comic book Tales of Suspense, scénarisé par Larry Lieber
+                    et dessiné par Don Heck.</p>                                     
+                  <p class="px-3">
+                    Au début de sa carrière de super-héros, Tony Stark avait pour principale occupation de lutter contre les 
+                    communistes dans le contexte de la guerre froide, de manière beaucoup plus systématique que les autres
+                    personnages de Marvel Comics. Ce cadre historique a progressivement disparu, au profit d'aventures de 
+                    science-fiction. Le contexte de la série Iron Man a ensuite continué d'évoluer avec les années, 
+                    le personnage affrontant en majorité des menaces de type technologique.
+                  </p>
+                  <p class="p-3">
+                    Le corps d'Iron Man est celui d'un homme normal, sans pouvoir surnaturel ou surhumain, mais rendu 
+                    surpuissant quand il revêt l'une des nombreuses armures de haute technologie conçues à l'aide des 
+                    impressionnantes compétences scientifiques de Stark. L'armure, pouvant voler à des vitesses supersoniques, 
+                    confère à Tony Stark une force et une résistance surhumaines et est équipée de multiples armes, capteurs et
+                    systèmes électroniques.
+                  </p>                      
+                </section>
+                <section id="OeilDeFaucon">
+                  <h2>Oeil De Faucon</h2>
+                  <div class="row">
+                    <img src="images/oeilFauconPresentation1.jpg" class="col-lg-4 my-1" alt="image de Oeil De Faucon en combat" />
+                    <img src="images/oeilFauconPresentation2.jpg" class="col-lg-8 my-1"  alt="image de Oeil De Faucon avec son arc"/>                      
+                  </div>
+                  <p class="p-3">Clinton « Clint » Barton, alias Œil-de-faucon (« Hawkeye » en version originale) est un 
+                    super-héros évoluant dans l'univers Marvel de la maison d'édition Marvel Comics. 
+                    Créé par le scénariste Stan Lee et le dessinateur Don Heck.</p>
+                  <p class="px-3">
+                    Le personnage est principalement connu sous l'identité de l'archer et membre de l'équipe des
+                    Vengeurs nommé Œil-de-faucon (en VF), mais il a également utilisé d'autres alias, 
+                    tels que Goliath (lorsqu'il utilisa un sérum le faisant changer de taille, qui avait été conçu
+                    par le docteur Hank Pym) et celui de Ronin.</p>
+                  <p class="p-3">
+                    Le personnage a été adapté dans l'univers cinématographique Marvel à partir du film Thor, 
+                    où il est interprété par l'acteur Jeremy Renner.</p>
+                </section>                   
+                  <a href="#IronMan" aria-label="IronMan"><svg xmlns="http://www.w3.org/2000/svg "  width="32" height="32" fill="black" class="bi bi-arrow-up-square-fill" viewbox="0 0 16 16">
+                    <path d="M2 16a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2zm6.5-4.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 1 0z"/>
+                    </svg>
+                  </a>
+                    
+            </div>
+          </div>
+        </div>        
+      </div>
+    </main>
+    <footer class="by-5 bg-primary py-3">
+      <div class="container">
+        <div class="row justify-content-around">
+          <div class="col-lg-3 col-md-6 col-sm-12 my-2">
+            <div class="card" >
+              <div class="card-body text-center ">           
+                <div>                                      
+                  <a href="https://www.facebook.com" aria-label="facebook"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-facebook" viewbox="0 0 16 16">
+                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                  </svg></a>
+                  <div>
+                    <p>Facebook</p>
+                  </div>                                
+                </div>
+                    <a href="https://www.facebook.com" class="card-link">www.facebook.com</a>                
+              </div>
+            </div>
+          </div>        
+          <div class="col-lg-3 col-md-6 col-sm-12 my-2">
+            <div class="card" >
+              <div class="card-body text-center ">           
+                <div>                                         
+                  <a href="mailto:info@monsiteweb.com" aria-label="courriel"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-envelope-fill" viewbox="0 0 16 16">
+                    <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+                  </svg></a>
+                  <div>
+                    <p>Par courriel</p>
+                  </div>                         
+                </div>
+                    <a href="mailto:info@monsiteweb.com" class="card-link">info@monsiteweb.com</a>                
+              </div>
+            </div>
+          </div>  
+          <div class="col-lg-3 col-md-6 col-sm-12 my-2">
+            <div class="card" >
+              <div class="card-body text-center ">           
+                <div class="text-danger ">
+                  <a href="https://www.instagram.com"  aria-label="Instagram"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-instagram" viewbox="0 0 16 16">
+                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                  </svg></a>                                                         
+                </div>
+                <div>
+                  <p>Instagram</p>
+                </div>    
+                    <a href="https://www.instagram.com" class="card-link">www.instagram.com</a>                
+              </div>
+            </div>
+          </div>  
+        </div>
+      </div>        
+      <div id="noms" class="by-5 bg-secondary py-3 mt-3">
+        <p class="text-white text-center">Site web réalisé par: Ouiza Meziani et Philippe Noël</p>
+      </div>      
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
